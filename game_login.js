@@ -5,5 +5,5 @@ function Login(){
     player2 = document.getElementById("P2L").value
     localStorage.setItem("storage_1",player1)
     localStorage.setItem("storage_2",player2)
-    window.location=""
+    window.location="game_page.html"
 }
